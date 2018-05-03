@@ -1,0 +1,24 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package guessthemovie;
+
+/**
+ *
+ * @author austichr
+ */
+public class UserGuess {
+int guessLeft = 6;
+    public void guess(String f, String userGuess){
+        if(f.contains(userGuess)){
+            System.out.println("You guessed a right letter!");
+}
+        else{
+            System.out.println("You guessed wrong, sory, try again. You have " 
+            + guessLeft +"guesses left.");
+            guessLeft = guessLeft - 1;
+        }
+    }
+}
