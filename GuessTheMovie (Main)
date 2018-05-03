@@ -1,0 +1,36 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package guessthemovie;
+import java.util.Scanner;
+import java.util.Random;
+import java.io.*;
+/**
+ *
+ * @author austichr
+ */
+public class GuessTheMovie {
+
+    /**
+     * @param args the command line arguments
+     * @throws java.io.IOException
+     */
+    public static void main(String[] args) throws IOException{
+
+    movieList = new MovieList;
+    Scanner kb = new Scanner(System.in);
+    
+    System.out.printf("Try and guess the movie, please only use lowercase"
+            + " letters. \nYou can guess wrong 6 times before you "
+            + "lose the game. Correct\n guesses will not count towards the "
+            + "6 chances. Good luck!\n");
+    System.out.println(z);
+    String userGuess = kb.nextLine();
+    }
+    
+
+}
+    
+
